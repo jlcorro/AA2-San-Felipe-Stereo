@@ -1,0 +1,29 @@
+node_modules
+dist
+.env
+.env.local
+*.log
+.DS_Store
+# Dependencias y compilación de la aplicación web
+node_modules/
+dist/
+
+# Entorno local: no publicar variables o credenciales
+.env
+.env.local
+.env.*
+!.env.example
+
+# Dependencias y resultados Maven
+**/target/
+
+# IDE y editor
+.idea/
+*.iml
+.vscode/
+
+# Archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+Desktop.ini
